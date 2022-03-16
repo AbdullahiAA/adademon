@@ -1,8 +1,54 @@
 :root {
-  --bg-color: #f9fafb;
-  --bg-account-color: #fafafa;
-  --brand-primary-color: #1b2e54;
-  --brand-sec-color: #bf2626;
+  --bg-color: #2d3748;
+  --text-color: #ffffff;
+  --text-hover-color: #5e75ff;
+}
+
+:root {
+  --global-palette1: #2b6cb0;
+  --global-palette2: #215387;
+  --global-palette3: #1a202c;
+  --global-palette4: #2d3748;
+  --global-palette5: #4a5568;
+  --global-palette6: #718096;
+  --global-palette7: #edf2f7;
+  --global-palette8: #f7fafc;
+  --global-palette9: #ffffff;
+  --global-palette9rgb: 255, 255, 255;
+  --global-palette-highlight: var(--global-palette1);
+  --global-palette-highlight-alt: var(--global-palette2);
+  --global-palette-highlight-alt2: var(--global-palette9);
+  --global-palette-btn-bg: var(--global-palette1);
+  --global-palette-btn-bg-hover: var(--global-palette2);
+  --global-palette-btn: var(--global-palette9);
+  --global-palette-btn-hover: var(--global-palette9);
+  --global-body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --global-heading-font-family: inherit;
+  --global-primary-nav-font-family: inherit;
+  --global-fallback-font: sans-serif;
+  --global-display-fallback-font: sans-serif;
+  --global-content-width: 1290px;
+  --global-content-narrow-width: 842px;
+  --global-content-edge-padding: 1.5rem;
+  --global-calc-content-width: calc(
+    1290px - var(--global-content-edge-padding) -
+      var(--global-content-edge-padding)
+  );
+}
+
+:root {
+  --global-gray-400: #cbd5e0;
+  --global-gray-500: #a0aec0;
+  --global-xs-spacing: 1em;
+  --global-sm-spacing: 1.5rem;
+  --global-md-spacing: 2rem;
+  --global-lg-spacing: 2.5em;
+  --global-xl-spacing: 3.5em;
+  --global-xxl-spacing: 5rem;
+  --global-edge-spacing: 1.5rem;
+  --global-boxed-spacing: 2rem;
 }
 
 *,
@@ -21,8 +67,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
-  background-color: var(--brand-primary-color);
-  color: var(--brand-primary-color);
+  background-color: var(--bg-color);
+  color: var(--text-color);
   font-size: 16px;
   overflow-x: hidden;
 }
@@ -33,25 +79,25 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 75px;
   line-height: 52px;
 }
 
 h3 {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 58px;
   line-height: 35px;
 }
 
 h4 {
   font-weight: 600;
-  font-size: 26px;
+  font-size: 35px;
   line-height: 35px;
 }
 
 h5 {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 27px;
   line-height: 30px;
 }
 
@@ -61,6 +107,11 @@ li {
   line-height: 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
+/* 
 @media screen and (max-width: 1370px) {
   h1 {
     font-size: 38px;
@@ -144,4 +195,4 @@ li {
   h5 {
     font-size: 16px;
   }
-}
+} */
