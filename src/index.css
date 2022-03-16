@@ -1,0 +1,147 @@
+:root {
+  --bg-color: #f9fafb;
+  --bg-account-color: #fafafa;
+  --brand-primary-color: #1b2e54;
+  --brand-sec-color: #bf2626;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+  scroll-behavior: smooth;
+  letter-spacing: 0.015em;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  background-color: var(--brand-primary-color);
+  color: var(--brand-primary-color);
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 52px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 52px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 35px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+p,
+li {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 1370px) {
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  h5 {
+    font-size: 22px;
+  }
+
+  button,
+  .button {
+    font-size: 16px;
+    min-width: 150px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 34px;
+    line-height: 35px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  p,
+  li {
+    font-size: 16px;
+  }
+
+  button,
+  .button {
+    font-size: 16px;
+    min-width: 130px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+}
