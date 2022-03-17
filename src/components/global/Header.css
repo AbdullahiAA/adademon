@@ -1,6 +1,9 @@
 header {
   /* background-color: aquamarine; */
 
+  position: absolute;
+  width: 100vw;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,6 +20,7 @@ nav ul {
   list-style: none;
   display: flex;
   gap: 40px;
+  margin-top: 10px;
 }
 
 nav ul li a {

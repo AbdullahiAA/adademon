@@ -51,24 +51,34 @@
   --global-boxed-spacing: 2rem;
 }
 
+@font-face {
+  font-family: "Moon House";
+  src: url(./fonts/moonhouse/moonhouse.ttf);
+}
+
+@font-face {
+  font-family: "Time Burner";
+  src: url(./fonts/timeburner/timeburnernormal.ttf);
+}
+
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Dosis", sans-serif;
+  font-family: "Time Burner", sans-serif;
   scroll-behavior: smooth;
   letter-spacing: 0.015em;
+  color: var(--text-color);
 }
 
 body {
-  font-family: "Dosis", sans-serif;
+  font-family: "Time Burner", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
   background-color: var(--bg-color);
-  color: var(--text-color);
   font-size: 16px;
   overflow-x: hidden;
 }
@@ -76,29 +86,35 @@ body {
 h1 {
   font-size: 40px;
   line-height: 52px;
+  font-family: "Moon House", sans-serif;
 }
 
 h2 {
   font-size: 75px;
   line-height: 52px;
+  margin-bottom: 37.5px;
+  font-family: "Moon House", sans-serif;
 }
 
 h3 {
   font-weight: 600;
   font-size: 58px;
   line-height: 35px;
+  font-family: "Moon House", sans-serif;
 }
 
 h4 {
   font-weight: 600;
   font-size: 35px;
   line-height: 35px;
+  font-family: "Moon House", sans-serif;
 }
 
 h5 {
   font-weight: 600;
   font-size: 27px;
   line-height: 30px;
+  font-family: "Moon House", sans-serif;
 }
 
 p,
@@ -109,6 +125,24 @@ li {
 
 a {
   text-decoration: none;
+}
+
+button {
+  font-size: 18px;
+  outline: none;
+  border: 0px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-size: 18px;
+  outline: none;
+  border: 0px;
+  cursor: pointer;
 }
 
 /* 
@@ -184,15 +218,4 @@ a {
     font-size: 24px;
   }
 
-  h3 {
-    font-size: 18px;
-  }
-
-  h3 {
-    font-size: 17px;
-  }
-
-  h5 {
-    font-size: 16px;
-  }
-} */
+  */

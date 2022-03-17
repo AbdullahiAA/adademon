@@ -1,12 +1,14 @@
 import React from "react";
+import HomeHero from "../components/home/HomeHero";
+import About from "../components/home/About";
 import "./Home.css";
 
 function Home() {
   return (
     <div>
-      {/* Hero */}
+      <HomeHero />
 
-      {/* About */}
+      <About />
 
       {/* StoryLine */}
 
