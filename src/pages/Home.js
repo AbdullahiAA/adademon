@@ -6,6 +6,7 @@ import Underworld from "../components/home/Underworld";
 import OwnLands from "../components/home/OwnLands";
 import GameFeatures from "../components/home/GameFeatures";
 import PlayToEarn from "../components/home/PlayToEarn";
+import Governance from "../components/home/Governance";
 
 function Home() {
   return (
@@ -26,7 +27,7 @@ function Home() {
 
       <PlayToEarn />
 
-      {/* Governance */}
+      <Governance/>
 
       {/* Slider */}
 

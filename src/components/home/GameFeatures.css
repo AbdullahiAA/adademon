@@ -4,8 +4,8 @@
   padding: 120px 100px 80px;
 
   background-image: url(../../images/gameFeatures.png);
-  background-position: 100% top;
-  background-size: 100% 100%;
+  background-position: center top;
+  background-size: initial 100%;
   background-repeat: no-repeat;
 
   display: grid;

@@ -1,0 +1,46 @@
+.governance {
+  min-height: 110vh;
+
+  padding: 120px 100px 80px;
+
+  background-image: url(../../images/gameFeatures.png);
+  background-position: center top;
+  background-size: initial 100%;
+  background-repeat: no-repeat;
+
+  text-align: center;
+}
+
+.governance__content {
+  padding: 10px;
+}
+
+.governance__header {
+  margin-bottom: 20px;
+}
+
+.governance__header h2 {
+  margin-bottom: 0px;
+}
+
+.governance__header h4 {
+  font-family: "Time Burner", sans-serif;
+}
+
+.governance__body ol {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.governance__body ol li {
+  font-size: 21px;
+}
+
+.governance__demon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
