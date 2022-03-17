@@ -1,0 +1,46 @@
+.underworld {
+  min-height: 100vh;
+
+  padding: 120px 100px 80px;
+
+  background-image: url(../../images/underworld.png);
+  background-position: 100% top;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+
+.underworld__demon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 80px;
+  width: 100% !important;
+  height: 100% !important;
+  position: relative;
+}
+
+.underworld__demonImg {
+  width: 80%;
+  position: absolute;
+  top: -20%;
+}
+
+.underworld__demonFire {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+}
+
+.underworld__content {
+  text-align: right;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

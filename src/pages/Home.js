@@ -1,7 +1,8 @@
 import React from "react";
+import "./Home.css";
 import HomeHero from "../components/home/HomeHero";
 import About from "../components/home/About";
-import "./Home.css";
+import Underworld from "../components/home/Underworld";
 
 function Home() {
   return (
@@ -10,11 +11,11 @@ function Home() {
 
       <About />
 
-      {/* StoryLine */}
+      {/* StoryLine -Not here */}
 
-      {/* ImageMoving */}
+      {/* ImageMoving -Not here */}
 
-      {/* Underworld */}
+      <Underworld />
 
       {/* OwnLands */}
 
