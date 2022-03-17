@@ -5,6 +5,7 @@ import About from "../components/home/About";
 import Underworld from "../components/home/Underworld";
 import OwnLands from "../components/home/OwnLands";
 import GameFeatures from "../components/home/GameFeatures";
+import PlayToEarn from "../components/home/PlayToEarn";
 
 function Home() {
   return (
@@ -23,7 +24,7 @@ function Home() {
 
       <GameFeatures />
 
-      {/* PlayToEarn */}
+      <PlayToEarn />
 
       {/* Governance */}
 

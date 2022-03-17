@@ -4,7 +4,7 @@ import gameFeatures from "../../images/gameFeatures.webp";
 
 function GameFeatures() {
   return (
-    <div className="gameFeatures">
+    <div className="gameFeatures overlay">
       <div className="gameFeatures__content">
         <h3>BATTLE WITH IMMERSIVE GAME FEATURES</h3>
 

@@ -13,24 +13,7 @@
   gap: 20px;
   justify-content: center;
   align-items: center;
-
   text-align: center;
-
-  position: relative;
-}
-
-.about::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: transparent;
-  background-image: linear-gradient(180deg, #ffffff00 0%, #1832ca 100%);
-  opacity: 0.5;
-  pointer-events: none;
-  transition: background-image 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
 .about__content {

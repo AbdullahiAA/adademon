@@ -14,7 +14,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about overlay">
       <div className="about__header">
         <h2>ABOUT ADA DEMON</h2>
       </div>

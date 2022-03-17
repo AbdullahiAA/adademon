@@ -1,9 +1,9 @@
-.gameFeatures {
-  min-height: 110vh;
+.playToEarn {
+  min-height: 140vh;
 
   padding: 120px 100px 80px;
 
-  background-image: url(../../images/gameFeatures.png);
+  background-image: url(../../images/playToEarn.png);
   background-position: 100% top;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -13,15 +13,16 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
-.gameFeatures__content {
+.playToEarn__content {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
 
-.gameFeatures__img img {
+.playToEarn__img img {
   object-fit: cover;
   width: 100%;
 }
