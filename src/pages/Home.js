@@ -3,6 +3,7 @@ import "./Home.css";
 import HomeHero from "../components/home/HomeHero";
 import About from "../components/home/About";
 import Underworld from "../components/home/Underworld";
+import OwnLands from "../components/home/OwnLands";
 
 function Home() {
   return (
@@ -17,7 +18,7 @@ function Home() {
 
       <Underworld />
 
-      {/* OwnLands */}
+      <OwnLands />
 
       {/* GameFeatures */}
 

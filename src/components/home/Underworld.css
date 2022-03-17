@@ -1,5 +1,5 @@
 .underworld {
-  min-height: 100vh;
+  min-height: 110vh;
 
   padding: 120px 100px 80px;
 
@@ -28,7 +28,7 @@
 .underworld__demonImg {
   width: 80%;
   position: absolute;
-  top: -20%;
+  bottom: 100px;
 }
 
 .underworld__demonFire {

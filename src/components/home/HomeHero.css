@@ -1,8 +1,8 @@
 .homeHero {
-  min-height: 100vh;
+  min-height: 110vh;
 
   background-image: url(../../images/homeHero.gif);
   background-position: 100% top;
-  /* background-size: 100% 100%; */
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
