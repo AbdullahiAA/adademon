@@ -85,13 +85,11 @@ body {
 
 h1 {
   font-size: 40px;
-  line-height: 52px;
   font-family: "Moon House", sans-serif;
 }
 
 h2 {
   font-size: 75px;
-  line-height: 52px;
   margin-bottom: 37.5px;
   font-family: "Moon House", sans-serif;
 }
@@ -99,28 +97,25 @@ h2 {
 h3 {
   font-weight: 600;
   font-size: 58px;
-  line-height: 35px;
   font-family: "Moon House", sans-serif;
 }
 
 h4 {
   font-weight: 600;
   font-size: 35px;
-  line-height: 35px;
   font-family: "Moon House", sans-serif;
 }
 
 h5 {
   font-weight: 600;
   font-size: 27px;
-  line-height: 30px;
   font-family: "Moon House", sans-serif;
 }
 
 p,
 li {
   font-size: 18px;
-  line-height: 30px;
+  line-height: 1.6;
 }
 
 a {

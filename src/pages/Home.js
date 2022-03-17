@@ -4,6 +4,7 @@ import HomeHero from "../components/home/HomeHero";
 import About from "../components/home/About";
 import Underworld from "../components/home/Underworld";
 import OwnLands from "../components/home/OwnLands";
+import GameFeatures from "../components/home/GameFeatures";
 
 function Home() {
   return (
@@ -20,7 +21,7 @@ function Home() {
 
       <OwnLands />
 
-      {/* GameFeatures */}
+      <GameFeatures />
 
       {/* PlayToEarn */}
 

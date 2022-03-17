@@ -1,7 +1,7 @@
 import React from "react";
 import "./Underworld.css";
 import demon from "../../images/underworldDemon.webp";
-import fire from "../../images/fire.png.webp";
+import fire from "../../images/fire.webp";
 
 function Underworld() {
   return (
