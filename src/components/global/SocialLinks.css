@@ -1,0 +1,25 @@
+.socialLinks {
+  z-index: 9999;
+  display: flex;
+  gap: 15px;
+}
+
+.socialLinks a {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #162e7b;
+}
+
+.socialLinks a svg {
+  width: 50%;
+  height: 50%;
+}
+
+.socialLinks.small a {
+  width: 34px;
+  height: 34px;
+}

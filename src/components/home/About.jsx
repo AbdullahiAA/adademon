@@ -1,22 +1,13 @@
 import React from "react";
-import {
-  FaNewspaper,
-  FaMoneyBillWave,
-  FaTelegramPlane,
-  FaTwitter,
-  FaInstagram,
-  FaReddit,
-  FaMedium,
-  FaDiscord,
-  FaGithub,
-} from "react-icons/fa";
+import { FaNewspaper, FaMoneyBillWave } from "react-icons/fa";
+import SocialLinks from "../global/SocialLinks";
 import "./About.css";
 
 function About() {
   return (
     <div className="about overlay">
       <div className="about__header">
-        <h2>ABOUT ADA DEMON</h2>
+        <h1>ABOUT ADA DEMON</h1>
       </div>
 
       <div className="about__content">
@@ -44,29 +35,7 @@ function About() {
         </button>
       </div>
 
-      <div className="about__socials">
-        <a href="https://t.me/ADA_DEMON">
-          <FaTelegramPlane />
-        </a>
-        <a href="https://twitter.com/ADADEMON_?t=gPBFY7DCnGGBy2iWngw8dg&s=09">
-          <FaTwitter />
-        </a>
-        <a href="https://instagram.com/ada.dem0n?utm_medium=copy_link">
-          <FaInstagram />
-        </a>
-        <a href="https://www.reddit.com/user/Ada_demon/">
-          <FaReddit />
-        </a>
-        <a href="https://discord.gg/dmVcqaa86S">
-          <FaDiscord />
-        </a>
-        <a href="https://medium.com/@ADADEMON">
-          <FaMedium />
-        </a>
-        <a href="https://github.com/ADADEMON">
-          <FaGithub />
-        </a>
-      </div>
+      <SocialLinks />
     </div>
   );
 }

@@ -69,7 +69,6 @@
   box-sizing: border-box;
   font-family: "Time Burner", sans-serif;
   scroll-behavior: smooth;
-  letter-spacing: 0.015em;
   color: var(--text-color);
 }
 
@@ -84,23 +83,18 @@ body {
 }
 
 h1 {
-  font-size: 40px;
-  font-family: "Moon House", sans-serif;
-}
-
-h2 {
   font-size: 75px;
   margin-bottom: 37.5px;
   font-family: "Moon House", sans-serif;
 }
 
-h3 {
+h2 {
   font-weight: 600;
   font-size: 58px;
   font-family: "Moon House", sans-serif;
 }
 
-h4 {
+h3 {
   font-weight: 600;
   font-size: 30px;
   font-family: "Moon House", sans-serif;
@@ -169,15 +163,15 @@ button {
     font-size: 38px;
   }
 
-  h2 {
+  h1 {
     font-size: 34px;
   }
 
-  h3 {
+  h2 {
     font-size: 26px;
   }
 
-  h4 {
+  h3 {
     font-size: 24px;
   }
 
@@ -198,12 +192,12 @@ button {
     line-height: 35px;
   }
 
-  h2 {
+  h1 {
     font-size: 30px;
     line-height: 35px;
   }
 
-  h3 {
+  h2 {
     font-size: 22px;
   }
 
@@ -232,7 +226,7 @@ button {
     font-size: 30px;
   }
 
-  h2 {
+  h1 {
     font-size: 24px;
   }
 

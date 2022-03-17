@@ -12,7 +12,7 @@ function Underworld() {
       </div>
 
       <div className="underworld__content">
-        <h3>UNDERWORLD</h3>
+        <h2>UNDERWORLD</h2>
 
         <p>
           It offers an economy owned by players where users may actually own,

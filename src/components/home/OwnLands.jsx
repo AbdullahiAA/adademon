@@ -5,7 +5,7 @@ function OwnLands() {
   return (
     <div className="ownLands">
       <div className="ownLands__content">
-        <h3>OWN LANDS</h3>
+        <h2>OWN LANDS</h2>
 
         <p>
           Using $Agony, the platform’s utility token, ADA Demon is creating a

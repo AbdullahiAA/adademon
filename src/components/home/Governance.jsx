@@ -7,8 +7,8 @@ function Governance() {
     <div className="governance overlay">
       <div className="governance__content">
         <div className="governance__header">
-          <h2>GOVERNANCE</h2>
-          <h4>Staking $AGONY provides holders with the following benefit</h4>
+          <h1>GOVERNANCE</h1>
+          <h3>Staking $AGONY provides holders with the following benefit</h3>
         </div>
 
         <div className="governance__body">

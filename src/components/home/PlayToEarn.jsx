@@ -6,7 +6,7 @@ function PlayToEarn() {
   return (
     <div className="playToEarn overlay">
       <div className="playToEarn__content">
-        <h3>PLAY TO EARN</h3>
+        <h2>PLAY TO EARN</h2>
 
         <p>
           The Play to Earn budget may be seen as a tool for promoting the

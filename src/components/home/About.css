@@ -42,24 +42,3 @@
   border-radius: 15px;
   background-image: radial-gradient(at center center, #1832ca 0%, #000000 100%);
 }
-
-.about__socials {
-  z-index: 9999;
-  display: flex;
-  gap: 15px;
-}
-
-.about__socials a {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #162e7b;
-}
-
-.about__socials a svg {
-  width: 50%;
-  height: 50%;
-}

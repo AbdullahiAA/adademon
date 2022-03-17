@@ -6,7 +6,7 @@ function GameFeatures() {
   return (
     <div className="gameFeatures overlay">
       <div className="gameFeatures__content">
-        <h3>BATTLE WITH IMMERSIVE GAME FEATURES</h3>
+        <h2>BATTLE WITH IMMERSIVE GAME FEATURES</h2>
 
         <p>
           To progress through a game’s plot, the player may be required to

@@ -7,6 +7,7 @@ import OwnLands from "../components/home/OwnLands";
 import GameFeatures from "../components/home/GameFeatures";
 import PlayToEarn from "../components/home/PlayToEarn";
 import Governance from "../components/home/Governance";
+import Slider from "../components/home/Slider";
 
 function Home() {
   return (
@@ -15,9 +16,9 @@ function Home() {
 
       <About />
 
-      {/* StoryLine -Not here */}
+      {/* StoryLine - Not here */}
 
-      {/* ImageMoving -Not here */}
+      {/* ImageMoving - Not here */}
 
       <Underworld />
 
@@ -27,13 +28,13 @@ function Home() {
 
       <PlayToEarn />
 
-      <Governance/>
+      <Governance />
 
-      {/* Slider */}
+      <Slider />
 
-      {/* Tokenomics */}
+      {/* Tokenomics - Not here */}
 
-      {/* ProgressBar */}
+      {/* ProgressBar - Not here */}
     </div>
   );
 }
