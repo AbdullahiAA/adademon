@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Storyline from "./pages/Storyline";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Tokenomics from "./pages/Tokenomics";
+import Roadmap from "./pages/Roadmap";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/storyline" element={<Storyline />} />
-            {/* Roadmap */}
+            <Route path="/roadmap" element={<Roadmap />} />
             {/* FAQ */}
             <Route path="/tokenomics" element={<Tokenomics />} />
             <Route path="*" element={<Navigate to="/" replace />} />
