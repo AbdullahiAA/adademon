@@ -1,0 +1,11 @@
+.tokenomicsProgress {
+  min-height: 110vh;
+
+  padding: 150px 100px 80px;
+
+  background-image: url(../../images/gameFeatures.png);
+  background-position: center top;
+  background-size: initial 100%;
+
+  text-align: center;
+}

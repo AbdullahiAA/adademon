@@ -25,6 +25,7 @@ nav ul {
 
 nav ul li a {
   color: var(--text-color);
+  font-weight: 600;
   transition: all 0.4s ease-in;
 }
 

@@ -16,10 +16,6 @@ function Home() {
 
       <About />
 
-      {/* StoryLine - Not here */}
-
-      {/* ImageMoving - Not here */}
-
       <Underworld />
 
       <OwnLands />
@@ -31,10 +27,6 @@ function Home() {
       <Governance />
 
       <Slider />
-
-      {/* Tokenomics - Not here */}
-
-      {/* ProgressBar - Not here */}
     </>
   );
 }
