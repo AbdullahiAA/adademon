@@ -4,7 +4,7 @@ import governanceDemon from "../../images/governanceDemon.webp";
 
 function Governance() {
   return (
-    <div className="governance overlay">
+    <section className="governance overlay">
       <div className="governance__content">
         <div className="governance__header">
           <h1>GOVERNANCE</h1>
@@ -39,7 +39,7 @@ function Governance() {
       <div className="governance__demon">
         <img src={governanceDemon} alt="Governance Demon" />
       </div>
-    </div>
+    </section>
   );
 }
 

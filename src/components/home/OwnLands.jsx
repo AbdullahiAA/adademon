@@ -3,7 +3,7 @@ import "./OwnLands.css";
 
 function OwnLands() {
   return (
-    <div className="ownLands">
+    <section className="ownLands">
       <div className="ownLands__content">
         <h2>OWN LANDS</h2>
 
@@ -20,7 +20,7 @@ function OwnLands() {
           worlds and scenarios.
         </p>
       </div>
-    </div>
+    </section>
   );
 }
 

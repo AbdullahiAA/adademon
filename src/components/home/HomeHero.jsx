@@ -2,7 +2,7 @@ import React from "react";
 import "./HomeHero.css";
 
 function HomeHero() {
-  return <div className="homeHero"></div>;
+  return <section className="homeHero"></section>;
 }
 
 export default HomeHero;

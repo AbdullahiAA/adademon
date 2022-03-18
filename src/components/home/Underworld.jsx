@@ -5,7 +5,7 @@ import fire from "../../images/fire.webp";
 
 function Underworld() {
   return (
-    <div className="underworld">
+    <section className="underworld">
       <div className="underworld__demon">
         <img className="underworld__demonImg" src={demon} alt="Demon" />
         <img className="underworld__demonFire" src={fire} alt="Demon Fire" />
@@ -25,7 +25,7 @@ function Underworld() {
           the history of the blockchain.
         </p>
       </div>
-    </div>
+    </section>
   );
 }
 

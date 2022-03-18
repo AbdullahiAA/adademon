@@ -2,7 +2,7 @@ import React from "react";
 import "./Slider.css";
 
 function Slider() {
-  return <div className="slider">Slider</div>;
+  return <section className="slider">Slider</section>;
 }
 
 export default Slider;

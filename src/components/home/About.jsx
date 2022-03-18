@@ -5,7 +5,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="about overlay">
+    <section className="about overlay">
       <div className="about__header">
         <h1>ABOUT ADA DEMON</h1>
       </div>
@@ -36,7 +36,7 @@ function About() {
       </div>
 
       <SocialLinks />
-    </div>
+    </section>
   );
 }
 

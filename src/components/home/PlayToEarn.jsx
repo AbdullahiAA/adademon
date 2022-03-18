@@ -4,7 +4,7 @@ import playToEarnDemon from "../../images/playToEarnDemon.png";
 
 function PlayToEarn() {
   return (
-    <div className="playToEarn overlay">
+    <section className="playToEarn overlay">
       <div className="playToEarn__content">
         <h2>PLAY TO EARN</h2>
 
@@ -30,7 +30,7 @@ function PlayToEarn() {
       <div className="playToEarn__img">
         <img src={playToEarnDemon} alt="Play To Earn" />
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -11,7 +11,7 @@ import Slider from "../components/home/Slider";
 
 function Home() {
   return (
-    <div>
+    <>
       <HomeHero />
 
       <About />
@@ -35,7 +35,7 @@ function Home() {
       {/* Tokenomics - Not here */}
 
       {/* ProgressBar - Not here */}
-    </div>
+    </>
   );
 }
 
