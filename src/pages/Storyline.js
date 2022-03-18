@@ -6,11 +6,7 @@ import "./Storyline.css";
 function Storyline() {
   return (
     <>
-      <section className="storyline overlay">
-        <h1>STORYLINE</h1>
-
-        <StorylineCards />
-      </section>
+      <StorylineCards />
 
       <StorylineDemo />
     </>
