@@ -1,0 +1,75 @@
+.faq {
+  min-height: 110vh;
+
+  padding: 150px 100px 80px;
+  background-color: transparent;
+  background-image: linear-gradient(
+    180deg,
+    #1832ca 10px,
+    #fdfdfd 20%,
+    #ffffff 45%,
+    #1832ca 100%
+  );
+}
+
+.faq * {
+  color: var(--text-faq) !important;
+}
+
+.faq__header {
+  margin: 145px 0px 25px;
+  text-align: center;
+}
+
+.faq__header h1 {
+  font-size: 90px;
+}
+
+.faq__header h3 {
+  font-size: 45px;
+  font-family: "Time Burner", sans-serif;
+}
+
+.faq__list h5 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.faq__list h5 svg {
+  width: 16px;
+  height: 16px;
+}
+
+.MuiPaper-root {
+  background-color: transparent !important;
+}
+
+.faq__list .Mui-expanded {
+  margin: 0px !important;
+}
+
+.faq__list .MuiAccordionSummary-root {
+  background-color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.faq__list .MuiAccordionSummary-root:hover,
+.MuiAccordion-root.Mui-expanded .MuiAccordionSummary-root {
+  background-color: #444444;
+}
+
+.faq__list .MuiAccordionSummary-root:hover *,
+.MuiAccordion-root.Mui-expanded .MuiAccordionSummary-root * {
+  color: white !important;
+}
+
+.MuiAccordionDetails-root {
+  background-color: transparent;
+  border: 1px solid #eee;
+}
+
+.MuiAccordionDetails-root p {
+  font-weight: 700;
+  margin-bottom: 10px;
+}

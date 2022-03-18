@@ -1,11 +1,12 @@
 import "./App.css";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Footer from "./components/global/Footer";
 import Header from "./components/global/Header";
 import Home from "./pages/Home";
 import Storyline from "./pages/Storyline";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Tokenomics from "./pages/Tokenomics";
 import Roadmap from "./pages/Roadmap";
+import FAQ from "./pages/FAQ";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/storyline" element={<Storyline />} />
             <Route path="/roadmap" element={<Roadmap />} />
-            {/* FAQ */}
+            <Route path="/faq" element={<FAQ />} />
             <Route path="/tokenomics" element={<Tokenomics />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
