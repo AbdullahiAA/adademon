@@ -12,6 +12,8 @@ header {
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+
+  z-index: 9999;
 }
 
 nav ul {

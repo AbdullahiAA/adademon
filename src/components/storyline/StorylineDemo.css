@@ -1,0 +1,20 @@
+.storylineDemo {
+  min-height: 80vh;
+
+  padding: 10px 100px;
+
+  background-image: url(../../images/gameFeatures.png);
+  background-position: center top;
+  background-size: initial 100%;
+  background-repeat: no-repeat;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.storylineDemo img {
+  width: 100%;
+}

@@ -4,6 +4,7 @@ import SocialLinks from "./SocialLinks";
 import footerLogo from "../../images/footerLogo.webp";
 import footerLeftImg from "../../images/slider3.webp";
 import footerRightImg from "../../images/slider1.webp";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -22,22 +23,22 @@ function Footer() {
         <div className="footer__navs">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#">Storyline</a>
+              <Link to="/storyline">Storyline</Link>
             </li>
             <li>
-              <a href="#">Roadmap</a>
+              <Link to="roadmap">Roadmap</Link>
             </li>
             <li>
-              <a href="#">FAQ</a>
+              <Link to="/faq">FAQ</Link>
             </li>
             <li>
-              <a href="#">Tokenomics</a>
+              <Link to="/tokenomics">Tokenomics</Link>
             </li>
             <li>
-              <a href="#">Buy $Agony</a>
+              <Link to="/buy-$agony">Buy $Agony</Link>
             </li>
           </ul>
         </div>

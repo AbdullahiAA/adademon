@@ -134,6 +134,10 @@ button {
   cursor: pointer;
 }
 
+img {
+  user-select: none;
+}
+
 .overlay {
   position: relative;
 }

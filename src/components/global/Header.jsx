@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
@@ -7,22 +8,22 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <a href="#">Home</a>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <a href="#">Storyline</a>
+            <NavLink to="/storyline">Storyline</NavLink>
           </li>
           <li>
-            <a href="#">Roadmap</a>
+            <NavLink to="roadmap">Roadmap</NavLink>
           </li>
           <li>
-            <a href="#">FAQ</a>
+            <NavLink to="/faq">FAQ</NavLink>
           </li>
           <li>
-            <a href="#">Tokenomics</a>
+            <NavLink to="/tokenomics">Tokenomics</NavLink>
           </li>
           <li>
-            <a href="#">Buy $Agony</a>
+            <NavLink to="/buy-$agony">Buy $Agony</NavLink>
           </li>
         </ul>
       </nav>
