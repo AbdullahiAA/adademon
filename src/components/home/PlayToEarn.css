@@ -1,7 +1,7 @@
 .playToEarn {
   min-height: 140vh;
 
-  padding: 120px 100px 80px;
+  padding: 120px var(--side-space) 80px;
 
   background-image: url(../../images/playToEarn.png);
   background-position: 100% top;
@@ -25,4 +25,12 @@
 .playToEarn__img img {
   object-fit: cover;
   width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .playToEarn {
+    min-height: 70vh;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
 }

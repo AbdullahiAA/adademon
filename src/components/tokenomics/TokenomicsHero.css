@@ -1,7 +1,7 @@
 .tokenomicsHero {
   min-height: 110vh;
 
-  padding: 150px 100px 80px;
+  padding: 150px var(--side-space) 80px;
 
   background-image: url(../../images/gameFeatures.png);
   background-position: center top;
@@ -16,4 +16,17 @@
   gap: 32px;
   text-align: left;
   font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+  .tokenomicsHero {
+    min-height: 70vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .tokenomicsHero__content {
+    gap: 22px;
+    font-weight: 500;
+  }
 }

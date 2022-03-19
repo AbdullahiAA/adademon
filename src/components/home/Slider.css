@@ -1,7 +1,7 @@
 .slider {
   height: 500px;
 
-  padding: 10px 100px;
+  padding: 10px var(--side-space);
 
   background-color: var(--text-color);
   color: var(--bg-color);

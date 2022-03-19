@@ -1,7 +1,7 @@
 .about {
   min-height: 110vh;
 
-  padding: 120px 100px 80px;
+  padding: 120px var(--side-space) 80px;
 
   background-image: url(../../images/about.png);
   background-position: 100% top;
@@ -41,4 +41,20 @@
   padding: 20px 40px;
   border-radius: 15px;
   background-image: radial-gradient(at center center, #1832ca 0%, #000000 100%);
+}
+
+@media screen and (max-width: 900px) {
+  .about {
+    min-height: 70vh;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  .about__header h1 {
+    margin-bottom: 0px;
+  }
+
+  .about__content p {
+    font-size: 20px;
+  }
 }

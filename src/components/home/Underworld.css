@@ -1,7 +1,7 @@
 .underworld {
   min-height: 110vh;
 
-  padding: 120px 100px 80px;
+  padding: 120px var(--side-space) 80px;
 
   background-image: url(../../images/underworld.png);
   background-position: 100% top;
@@ -43,4 +43,29 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+}
+
+@media screen and (max-width: 900px) {
+  .underworld {
+    min-height: 70vh;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  .underworld__demon {
+    height: fit-content !important;
+    top: 30%;
+  }
+
+  .underworld__demonImg {
+    width: 100%;
+  }
+
+  .underworld__demonFire {
+    width: 70%;
+  }
+
+  .underworld__content {
+    gap: 22px;
+  }
 }

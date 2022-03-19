@@ -3,6 +3,8 @@
   --text-color: #ffffff;
   --text-hover-color: #5e75ff;
   --text-faq: #162e7b;
+
+  --side-space: 100px;
 }
 
 @font-face {
@@ -115,77 +117,20 @@ img {
   transition: background-image 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
-/* 
-@media screen and (max-width: 1370px) {
-  h1 {
-    font-size: 38px;
+@media screen and (max-width: 900px) {
+  :root {
+    --side-space: 30px;
   }
 
   h1 {
-    font-size: 34px;
+    font-size: 65px;
   }
 
   h2 {
-    font-size: 26px;
+    font-size: 45px;
   }
 
   h3 {
-    font-size: 24px;
-  }
-
-  h5 {
-    font-size: 22px;
-  }
-
-  button,
-  .button {
-    font-size: 16px;
-    min-width: 150px;
+    font-size: 26px;
   }
 }
-
-@media screen and (max-width: 900px) {
-  h1 {
-    font-size: 34px;
-    line-height: 35px;
-  }
-
-  h1 {
-    font-size: 30px;
-    line-height: 35px;
-  }
-
-  h2 {
-    font-size: 22px;
-  }
-
-  h5 {
-    font-size: 20px;
-  }
-
-  h5 {
-    font-size: 18px;
-  }
-
-  p,
-  li {
-    font-size: 16px;
-  }
-
-  button,
-  .button {
-    font-size: 16px;
-    min-width: 130px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  h1 {
-    font-size: 30px;
-  }
-
-  h1 {
-    font-size: 24px;
-  }
-
-  */

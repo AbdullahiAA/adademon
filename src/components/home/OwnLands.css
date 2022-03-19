@@ -1,7 +1,7 @@
 .ownLands {
   min-height: 130vh;
 
-  padding: 135px 100px 80px;
+  padding: 135px var(--side-space) 80px;
 
   background-image: url(../../images/ownLands.png);
   background-position: 100% top;
@@ -22,4 +22,16 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+}
+
+@media screen and (max-width: 900px) {
+  .ownLands {
+    min-height: 70vh;
+    padding-bottom: 40px;
+  }
+
+  .ownLands__content {
+    width: 65%;
+    gap: 22px;
+  }
 }

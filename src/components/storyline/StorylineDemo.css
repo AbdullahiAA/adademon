@@ -1,7 +1,7 @@
 .storylineDemo {
   min-height: 80vh;
 
-  padding: 10px 100px;
+  padding: 10px var(--side-space);
 
   background-image: url(../../images/gameFeatures.png);
   background-position: center top;
@@ -17,4 +17,11 @@
 
 .storylineDemo img {
   width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .storylineDemo {
+    min-height: 40vh;
+    background-size: 100% 100%;
+  }
 }

@@ -1,9 +1,10 @@
 footer {
-  padding: 60px 100px;
+  padding: 60px var(--side-space);
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  align-items: center;
 
   background-color: transparent;
   background-image: linear-gradient(170deg, #000000 0%, #1832ca 100%);
@@ -17,7 +18,7 @@ footer {
 }
 
 .footer__logo img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .footer__navs {
@@ -37,6 +38,13 @@ footer {
 
 .footer__left img,
 .footer__right img {
-  width: 100%;
-  transform: scale(1.3);
+  max-width: 100%;
+  /* transform: scale(1.3); */
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
