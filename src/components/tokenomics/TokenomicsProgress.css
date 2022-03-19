@@ -13,8 +13,7 @@
 @media screen and (max-width: 900px) {
   .tokenomicsProgress {
     min-height: 70vh;
-    padding-top: 60px;
-    padding-bottom: 40px;
+
     background-size: 100% 100%;
   }
 }

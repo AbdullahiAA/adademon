@@ -44,7 +44,12 @@ footer {
 
 @media screen and (max-width: 900px) {
   footer {
+    gap: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  .footer__navs ul {
+    gap: 10px;
   }
 }

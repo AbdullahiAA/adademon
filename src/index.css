@@ -5,6 +5,7 @@
   --text-faq: #162e7b;
 
   --side-space: 100px;
+  --section-padding: 120px var(--side-space) 80px;
 }
 
 @font-face {
@@ -120,10 +121,11 @@ img {
 @media screen and (max-width: 900px) {
   :root {
     --side-space: 30px;
+    --section-padding: 60px var(--side-space) 40px;
   }
 
   h1 {
-    font-size: 65px;
+    font-size: 60px;
   }
 
   h2 {

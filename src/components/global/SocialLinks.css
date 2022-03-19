@@ -2,6 +2,8 @@
   z-index: 9999;
   display: flex;
   gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .socialLinks a {
@@ -22,4 +24,16 @@
 .socialLinks.small a {
   width: 34px;
   height: 34px;
+}
+
+@media screen and (max-width: 900px) {
+  .socialLinks a {
+    width: 45px;
+    height: 45px;
+  }
+
+  .socialLinks.small a {
+    width: 30px;
+    height: 30px;
+  }
 }
