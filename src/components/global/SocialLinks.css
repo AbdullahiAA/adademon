@@ -37,3 +37,13 @@
     height: 30px;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .socialLinks {
+    width: 90%;
+  }
+
+  .socialLinks.small {
+    width: 100%;
+  }
+}

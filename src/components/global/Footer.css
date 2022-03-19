@@ -53,3 +53,16 @@ footer {
     gap: 10px;
   }
 }
+
+@media screen and (max-width: 550px) {
+  footer,
+  .footer__navs ul {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer__left,
+  .footer__right {
+    display: none;
+  }
+}

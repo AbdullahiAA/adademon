@@ -32,6 +32,7 @@
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about__btns button {
@@ -55,5 +56,16 @@
 
   .about__content p {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .about {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .about__btns {
+    gap: 15px;
   }
 }

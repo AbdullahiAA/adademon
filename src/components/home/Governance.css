@@ -51,7 +51,30 @@
 
     background-size: 100% 100%;
   }
+
   .governance__body ol {
     gap: 22px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .governance {
+    background-size: cover;
+  }
+
+  .governance__header h1 {
+    margin-bottom: 10px;
+  }
+
+  .governance__header h3 {
+    font-weight: 400;
+  }
+
+  .governance__body ol {
+    gap: 16px;
+  }
+
+  .governance__body ol li {
+    font-size: 16px;
   }
 }

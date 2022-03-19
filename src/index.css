@@ -27,6 +27,7 @@
   font-family: "Time Burner", sans-serif;
   scroll-behavior: smooth;
   color: var(--text-color);
+  z-index: 1;
 }
 
 body {
@@ -67,17 +68,6 @@ p,
 li {
   font-size: 18px;
   line-height: 1.6;
-}
-
-a {
-  text-decoration: none;
-}
-
-button {
-  font-size: 18px;
-  outline: none;
-  border: 0px;
-  cursor: pointer;
 }
 
 a {
@@ -134,5 +124,35 @@ img {
 
   h3 {
     font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  :root {
+    --side-space: 15px;
+    --section-padding: 40px var(--side-space) 20px;
+  }
+
+  h1 {
+    font-size: 33px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 16px;
+  }
+
+  p,
+  li,
+  button,
+  a {
+    font-size: 16px;
   }
 }

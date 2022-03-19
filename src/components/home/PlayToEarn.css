@@ -32,3 +32,16 @@
     min-height: 70vh;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .playToEarn {
+    background-size: cover;
+    background-position: left;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .playToEarn__content {
+    gap: 16px;
+  }
+}

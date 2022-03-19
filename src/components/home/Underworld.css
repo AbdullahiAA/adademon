@@ -63,3 +63,33 @@
     gap: 22px;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .underworld {
+    grid-template-columns: 1fr;
+    background-position: 50% top;
+    background-size: cover;
+    gap: 0px;
+  }
+
+  .underworld__demon {
+    padding: initial;
+  }
+
+  .underworld__demonImg,
+  .underworld__demonFire {
+    position: relative;
+    bottom: initial;
+  }
+
+  .underworld__demonFire {
+    bottom: 80px;
+  }
+
+  .underworld__content {
+    text-align: center;
+    gap: 16px;
+    /* position: relative; */
+    /* bottom: 50px; */
+  }
+}

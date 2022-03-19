@@ -40,3 +40,19 @@
     font-size: 40px;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .gameFeatures {
+    background-size: cover;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .gameFeatures__content {
+    gap: 16px;
+  }
+
+  .gameFeatures__content h2 {
+    font-size: 30px;
+  }
+}

@@ -51,3 +51,19 @@
     gap: 22px;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .ownLands {
+    min-height: 100vh;
+    background-position: center top;
+    background-size: cover;
+
+    padding-top: 90px;
+    padding-bottom: 10px;
+  }
+
+  .ownLands__content {
+    width: 100%;
+    gap: 16px;
+  }
+}

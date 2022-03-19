@@ -16,3 +16,9 @@
   column-gap: 20px;
   row-gap: 40px;
 }
+
+@media screen and (max-width: 550px) {
+  .storylineCards {
+    padding-top: 100px;
+  }
+}

@@ -6,3 +6,9 @@
   background-color: var(--text-color);
   color: var(--bg-color);
 }
+
+@media screen and (max-width: 550px) {
+  .slider {
+    height: 150px;
+  }
+}

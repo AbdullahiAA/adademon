@@ -30,3 +30,18 @@
     font-weight: 500;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .tokenomicsHero {
+    padding-top: 100px;
+  }
+
+  .tokenomicsHero__content {
+    gap: 16px;
+  }
+
+  .tokenomicsHero__content p {
+    font-size: 14px;
+    word-break: break-all;
+  }
+}

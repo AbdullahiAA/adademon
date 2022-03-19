@@ -39,6 +39,7 @@
 .faq__list h5 svg {
   width: 16px;
   height: 16px;
+  flex-shrink: 0;
 }
 
 .MuiPaper-root {
@@ -89,5 +90,15 @@
 
   .faq__header h3 {
     font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .faq__header {
+    margin-top: 40px;
+  }
+
+  .faq__header h3 {
+    font-size: 20px;
   }
 }

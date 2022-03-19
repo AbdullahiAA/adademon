@@ -15,7 +15,7 @@
 .storylineCardItem__num {
   color: #ffffff5c;
   font-family: "Montserrat", Sans-serif;
-  font-size: 159px;
+  font-size: 160px;
   font-weight: 900;
   position: absolute;
   top: -30px;
@@ -32,4 +32,14 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+@media screen and (max-width: 550px) {
+  .storylineCardItem {
+    padding-top: 90px;
+  }
+
+  .storylineCardItem__num {
+    font-size: 120px;
+  }
 }
