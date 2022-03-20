@@ -7,7 +7,7 @@ import OwnLands from "../components/home/OwnLands";
 import GameFeatures from "../components/home/GameFeatures";
 import PlayToEarn from "../components/home/PlayToEarn";
 import Governance from "../components/home/Governance";
-import Slider from "../components/home/Slider";
+import ImgSlider from "../components/home/ImgSlider";
 
 function Home() {
   return (
@@ -26,7 +26,7 @@ function Home() {
 
       <Governance />
 
-      <Slider />
+      <ImgSlider />
     </>
   );
 }

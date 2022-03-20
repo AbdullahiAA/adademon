@@ -1,14 +1,10 @@
 .slider {
-  height: 500px;
-
+  max-height: 500px;
   padding: 10px var(--side-space);
-
   background-color: var(--text-color);
   color: var(--bg-color);
 }
 
-@media screen and (max-width: 550px) {
-  .slider {
-    height: 150px;
-  }
+.slider img {
+  max-width: 100%;
 }
