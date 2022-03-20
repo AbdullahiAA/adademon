@@ -41,5 +41,6 @@
 
   .storylineCardItem__num {
     font-size: 120px;
+    top: -20px;
   }
 }
