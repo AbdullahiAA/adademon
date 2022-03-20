@@ -13,6 +13,7 @@ function ImgSlider() {
     dots: true,
     slidesToShow: 2,
     pauseOnHover: false,
+    swipe: false,
   };
 
   return (
