@@ -24,6 +24,7 @@
 .gameFeatures__img img {
   object-fit: cover;
   width: 100%;
+  /* transform: scale(1.5); */
 }
 
 @media screen and (max-width: 900px) {

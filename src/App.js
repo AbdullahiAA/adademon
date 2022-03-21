@@ -8,11 +8,14 @@ import Storyline from "./pages/Storyline";
 import Tokenomics from "./pages/Tokenomics";
 import Roadmap from "./pages/Roadmap";
 import FAQ from "./pages/FAQ";
+import ScrollToTop from "./components/global/ScrollToTop";
 
 function App() {
   return (
     <div className="app">
       <BrowserRouter>
+        <ScrollToTop />
+
         <Header />
 
         <main>

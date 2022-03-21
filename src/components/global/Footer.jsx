@@ -5,6 +5,7 @@ import footerLogo from "../../images/footerLogo.webp";
 import footerLeftImg from "../../images/slider3.webp";
 import footerRightImg from "../../images/slider1.webp";
 import { Link } from "react-router-dom";
+import Flash from "react-reveal/Flash";
 
 function Footer() {
   return (
@@ -14,7 +15,9 @@ function Footer() {
       </div>
 
       <div className="footer__content">
-        <SocialLinks smallIcons />
+        <Flash>
+          <SocialLinks smallIcons />
+        </Flash>
 
         <div className="footer__logo">
           <img src={footerLogo} alt="ADA DEMON" />

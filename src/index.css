@@ -25,7 +25,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Time Burner", sans-serif;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   color: var(--text-color);
   z-index: 1;
 }

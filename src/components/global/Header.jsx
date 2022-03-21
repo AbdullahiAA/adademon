@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import Bounce from "react-reveal/Bounce";
 
 function Header() {
   const [isMenu, setIsMenu] = useState(false);
@@ -23,32 +24,33 @@ function Header() {
 
   return (
     <header>
-      <nav
-        className={`${isMenu ? "show" : ""}`}
-        ref={menuRef}
-        onClick={() => setIsMenu(false)}
-      >
-        <ul>
-          <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/storyline">Storyline</NavLink>
-          </li>
-          <li>
-            <NavLink to="roadmap">Roadmap</NavLink>
-          </li>
-          <li>
-            <NavLink to="/faq">FAQ</NavLink>
-          </li>
-          <li>
-            <NavLink to="/tokenomics">Tokenomics</NavLink>
-          </li>
-          <li>
-            <NavLink to="/buy-$agony">Buy $Agony</NavLink>
-          </li>
-        </ul>
-      </nav>
+      <Bounce top spy={isMenu}>
+        <nav
+          className={`${isMenu ? "show" : ""}`}
+          onClick={() => setIsMenu(false)}
+        >
+          <ul ref={menuRef}>
+            <li>
+              <NavLink to="/">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/storyline">Storyline</NavLink>
+            </li>
+            <li>
+              <NavLink to="roadmap">Roadmap</NavLink>
+            </li>
+            <li>
+              <NavLink to="/faq">FAQ</NavLink>
+            </li>
+            <li>
+              <NavLink to="/tokenomics">Tokenomics</NavLink>
+            </li>
+            <li>
+              <NavLink to="/buy-$agony">Buy $Agony</NavLink>
+            </li>
+          </ul>
+        </nav>
+      </Bounce>
 
       <div
         className="header__toggle"

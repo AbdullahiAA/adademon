@@ -1,14 +1,17 @@
 import React from "react";
 import "./Governance.css";
 import governanceDemon from "../../images/governanceDemon.webp";
+import Flash from "react-reveal/Flash";
 
 function Governance() {
   return (
     <section className="governance overlay">
       <div className="governance__content">
         <div className="governance__header">
-          <h1>GOVERNANCE</h1>
-          <h3>Staking $AGONY provides holders with the following benefit</h3>
+          <Flash>
+            <h1>GOVERNANCE</h1>
+            <h3>Staking $AGONY provides holders with the following benefit</h3>
+          </Flash>
         </div>
 
         <div className="governance__body">

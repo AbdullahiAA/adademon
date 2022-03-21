@@ -1,4 +1,6 @@
 .storylineCardItem {
+  height: 100%;
+  width: 100%;
   padding: 10px;
   padding-top: 120px;
   border-radius: 15px;

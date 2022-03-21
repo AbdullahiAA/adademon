@@ -39,7 +39,8 @@ footer {
 .footer__left img,
 .footer__right img {
   max-width: 100%;
-  /* transform: scale(1.3); */
+  height: 100%;
+  transform: scale(1.3);
 }
 
 @media screen and (max-width: 900px) {
@@ -51,6 +52,10 @@ footer {
 
   .footer__navs ul {
     gap: 10px;
+  }
+
+  .footer__logo img {
+    max-width: 200px;
   }
 }
 

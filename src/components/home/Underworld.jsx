@@ -2,13 +2,16 @@ import React from "react";
 import "./Underworld.css";
 import demon from "../../images/underworldDemon.webp";
 import fire from "../../images/fire.webp";
+import Flash from "react-reveal/Flash";
 
 function Underworld() {
   return (
     <section className="underworld">
       <div className="underworld__demon">
         <img className="underworld__demonImg" src={demon} alt="Demon" />
-        <img className="underworld__demonFire" src={fire} alt="Demon Fire" />
+        <Flash>
+          <img className="underworld__demonFire" src={fire} alt="Demon Fire" />
+        </Flash>
       </div>
 
       <div className="underworld__content">

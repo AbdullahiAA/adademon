@@ -1,10 +1,13 @@
 import React from "react";
 import "./TokenomicsHero.css";
+import Flash from "react-reveal/Flash";
 
 function TokenomicsHero() {
   return (
     <section className="tokenomicsHero overlay">
-      <h1>TOKENOMICS</h1>
+      <Flash>
+        <h1>TOKENOMICS</h1>
+      </Flash>
 
       <div className="tokenomicsHero__content">
         <p>
