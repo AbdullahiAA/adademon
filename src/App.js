@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Footer from "./components/global/Footer";
 import Header from "./components/global/Header";
+import Wave from "./components/global/Wave";
 import Home from "./pages/Home";
 import Storyline from "./pages/Storyline";
 import Tokenomics from "./pages/Tokenomics";
@@ -24,6 +25,8 @@ function App() {
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
+
+        <Wave />
 
         <Footer />
       </BrowserRouter>
