@@ -1,0 +1,22 @@
+.buyAgonyPartnership {
+  padding: 100px var(--side-space);
+
+  background-color: #1a202c;
+  background-image: linear-gradient(180deg, #1a202c 26%, #1832ca 100%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.buyAgonyPartnership h3 {
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Time Burner", sans-serif;
+}
+
+.buyAgonyPartnership button {
+  padding: 12px 24px;
+  font-size: 16px;
+}

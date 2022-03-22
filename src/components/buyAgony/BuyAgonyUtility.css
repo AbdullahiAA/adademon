@@ -1,0 +1,44 @@
+.buyAgonyUtility {
+  padding: 20px var(--side-space);
+
+  background-color: #1a202c;
+}
+
+.buyAgonyUtility * {
+  font-family: "Time Burner", sans-serif;
+}
+
+.buyAgonyUtility__header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 20px;
+}
+
+.buyAgonyUtility__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  row-gap: 40px;
+}
+
+.buyAgonyUtility__item {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.buyAgonyUtility__item:nth-last-child(1):nth-child(odd) {
+  grid-column: 2 / span 2;
+}
+
+.buyAgonyUtility__itemImg img {
+  max-width: 125px;
+  height: 100%;
+}
+
+.buyAgonyUtility__item h5 {
+  font-weight: 400;
+}

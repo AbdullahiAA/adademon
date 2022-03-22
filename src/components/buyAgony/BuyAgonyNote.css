@@ -1,0 +1,14 @@
+.buyAgonyNote {
+  padding: 60px var(--side-space);
+
+  background-color: #1a202c;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.buyAgonyNote h5 {
+  font-family: "Time Burner", sans-serif;
+  font-weight: 500;
+}

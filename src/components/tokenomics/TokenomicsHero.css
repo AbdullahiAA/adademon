@@ -18,6 +18,10 @@
   font-weight: 600;
 }
 
+.tokenomicsHero__content p {
+  word-break: break-all;
+}
+
 @media screen and (max-width: 900px) {
   .tokenomicsHero {
     min-height: 70vh;
@@ -42,6 +46,5 @@
 
   .tokenomicsHero__content p {
     font-size: 14px;
-    word-break: break-all;
   }
 }

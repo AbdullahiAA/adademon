@@ -1,0 +1,38 @@
+.buyAgonyPurchase {
+  padding: 20px var(--side-space);
+
+  background-color: #1a202c;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.buyAgonyPurchase * {
+  font-weight: 500;
+  font-family: "Time Burner", sans-serif;
+}
+
+.buyAgonyPurchase__minmax,
+.buyAgonyPurchase__price {
+  padding: 20px 15px;
+  background-color: #ffffff45;
+  border-radius: 15px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.buyAgonyPurchase__minmax hr {
+  border: none;
+  border-top: 3px dashed;
+  width: 85%;
+}
+
+.buyAgonyPurchase__price h3 {
+  font-weight: 600;
+  letter-spacing: 8px;
+}

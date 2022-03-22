@@ -1,0 +1,44 @@
+.buyAgonyWallet {
+  padding: 20px var(--side-space);
+
+  background-color: #1a202c;
+
+  display: grid;
+  place-items: center;
+}
+
+.buyAgonyWallet__box * {
+  font-family: "Time Burner", sans-serif;
+}
+
+.buyAgonyWallet__box {
+  padding: 20px 15px;
+  background-color: #ffffff45;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 550px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.buyAgonyWallet__box h5 {
+  word-break: break-all;
+  font-weight: 400;
+}
+
+.buyAgonyWallet__box button {
+  padding: 12px 24px;
+  font-size: 16px;
+}
+
+.buyAgonyWallet__box button:hover {
+  background: white;
+  transform: scale(1.1);
+}
+
+.buyAgonyWallet__box button:active {
+  transform: scale(0.95);
+}

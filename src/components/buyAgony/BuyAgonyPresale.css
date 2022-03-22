@@ -1,0 +1,73 @@
+.buyAgonyPresale {
+  padding: 20px var(--side-space);
+
+  background-color: #1a202c;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.buyAgonyPresale__howTo,
+.buyAgonyPresale__howTo ol {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.buyAgonyPresale__howTo h2 {
+  font-family: "Time Burner", sans-serif;
+}
+
+.buyAgonyPresale__middle {
+  padding: 20px 15px;
+  background-color: #ffffff45;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.buyAgonyPresale__tokenSale h3,
+.buyAgonyPresale__tokenSale p {
+  margin-bottom: 20px;
+}
+
+.buyAgonyPresale__tokenSale hr {
+  border: none;
+  border-top: 3px dashed;
+  width: 85%;
+}
+
+.buyAgonyPresale__calculatorForm {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.buyAgonyPresale__calculatorForm hr {
+  border: none;
+  border-top: 1px dotted;
+  width: 85%;
+}
+
+.buyAgonyPresale__calculatorForm .formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.buyAgonyPresale__calculatorForm .formGroup label {
+  font-size: 33px;
+}
+
+.buyAgonyPresale__calculatorForm .formGroup input {
+  padding: 5px;
+  outline: none;
+  color: initial;
+}
+
+.agonyInput {
+  width: 50%;
+}
