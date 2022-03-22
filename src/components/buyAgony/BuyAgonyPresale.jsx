@@ -2,11 +2,12 @@ import React, { useEffect, useState } from "react";
 import "./BuyAgonyPresale.css";
 
 function BuyAgonyPresale() {
-  const [defaultPrice] = useState(527);
   const [adaCount, setAdaCount] = useState(1);
-  const [agonyPrice, setAgonyPrice] = useState(defaultPrice);
+  const [agonyPrice, setAgonyPrice] = useState(0);
 
   useEffect(() => {
+    const defaultPrice = 527;
+
     setAgonyPrice(adaCount * defaultPrice);
   }, [adaCount]);
 

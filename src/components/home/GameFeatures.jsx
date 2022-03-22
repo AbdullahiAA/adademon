@@ -1,21 +1,24 @@
-import React, { useEffect, useRef } from "react";
+import React, {
+  useEffect,
+  // useRef
+} from "react";
 import "./GameFeatures.css";
 import gameFeatures from "../../images/gameFeatures.webp";
 import Slide from "react-reveal/Slide";
 import Flash from "react-reveal/Flash";
-import { useInView } from "react-intersection-observer";
+// import { useInView } from "react-intersection-observer";
 
 function GameFeatures() {
-  const { ref, inView, entry } = useInView({
-    threshold: 0.2,
-  });
-  const sectionRef = useRef(null);
+  // const { ref, inView, entry } = useInView({
+  //   threshold: 0.2,
+  // });
+  // const sectionRef = useRef(null);
 
   useEffect(() => {
     function handleMouseMove(e) {
       // console.log(sectionRef.current.clientHeight);
-      console.log(sectionRef.current.getBoundingClientRect());
-      console.log(window.scrollY);
+      // console.log(sectionRef.current.getBoundingClientRect());
+      // console.log(window.scrollY);
     }
 
     window.addEventListener("scroll", handleMouseMove);
@@ -24,8 +27,14 @@ function GameFeatures() {
   }, []);
 
   return (
-    <section className="gameFeatures overlay" ref={sectionRef}>
-      <div ref={ref} className="gameFeatures__content">
+    <section
+      className="gameFeatures overlay"
+      // ref={sectionRef}
+    >
+      <div
+        // ref={ref}
+        className="gameFeatures__content"
+      >
         <Slide bottom>
           <h2>BATTLE WITH IMMERSIVE GAME FEATURES</h2>
 
