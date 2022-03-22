@@ -74,11 +74,33 @@ a {
   text-decoration: none;
 }
 
-button {
+button,
+.button {
   font-size: 18px;
   outline: none;
   border: 0px;
   cursor: pointer;
+
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 20px 40px;
+  border-radius: 15px;
+  font-weight: 500;
+  transition: transform 0.4s ease-in-out;
+  background-image: radial-gradient(at center center, #1832ca 0%, #000000 100%);
+}
+
+button:hover,
+.button:hover {
+  color: #000000 !important;
+  transform: translateY(-8px);
+  box-shadow: 0px 15px 25px -7px rgba(0, 0, 0, 10%);
+}
+
+button:hover svg *,
+.button:hover svg * {
+  color: #000000 !important;
 }
 
 img {
@@ -152,6 +174,7 @@ img {
   p,
   li,
   button,
+  .button,
   a {
     font-size: 16px;
   }

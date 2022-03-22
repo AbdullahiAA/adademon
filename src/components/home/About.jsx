@@ -3,6 +3,8 @@ import { FaNewspaper, FaMoneyBillWave } from "react-icons/fa";
 import SocialLinks from "../global/SocialLinks";
 import "./About.css";
 import Flash from "react-reveal/Flash";
+import whitepaper from "../../pdf/ada-demon-whitepaper.pdf";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -29,12 +31,12 @@ function About() {
         </div>
 
         <div className="about__btns">
-          <button>
+          <a href={whitepaper} className="button">
             <FaNewspaper /> Whitepaper
-          </button>
-          <button>
+          </a>
+          <Link to="/buy-$agony" className="button">
             <FaMoneyBillWave /> Buy $AGONY
-          </button>
+          </Link>
         </div>
 
         <SocialLinks />
