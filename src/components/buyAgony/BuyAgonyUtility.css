@@ -42,3 +42,30 @@
 .buyAgonyUtility__item h5 {
   font-weight: 400;
 }
+
+@media screen and (max-width: 900px) {
+  .buyAgonyUtility__list {
+    grid-template-columns: 1fr;
+  }
+
+  .buyAgonyUtility__item {
+    grid-column: initial !important;
+  }
+
+  .buyAgonyUtility__item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .buyAgonyUtility__header {
+    display: block;
+    text-align: center;
+  }
+
+  .buyAgonyUtility__item {
+    display: flex;
+    flex-direction: column !important;
+    text-align: center;
+  }
+}

@@ -15,6 +15,10 @@
   gap: 20px;
 }
 
+.buyAgonyPresale__howTo ol {
+  padding-left: 10px;
+}
+
 .buyAgonyPresale__howTo h2 {
   font-family: "Time Burner", sans-serif;
 }
@@ -70,4 +74,16 @@
 
 .agonyInput {
   width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+  .buyAgonyPresale {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .buyAgonyPresale {
+    grid-template-columns: 1fr;
+  }
 }

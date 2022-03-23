@@ -42,3 +42,15 @@
 .buyAgonyWallet__box button:active {
   transform: scale(0.95);
 }
+
+@media screen and (max-width: 900px) {
+  .buyAgonyWallet__box {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .buyAgonyWallet__box {
+    max-width: 100%;
+  }
+}

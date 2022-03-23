@@ -36,3 +36,10 @@
   font-weight: 600;
   letter-spacing: 8px;
 }
+
+@media screen and (max-width: 550px) {
+  .buyAgonyPurchase {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

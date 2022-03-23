@@ -20,11 +20,43 @@
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  /* justify-content: center; For Mobile */
 }
 
 .buyAgonyHero__img img {
   display: block;
   max-width: 60%;
   margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .buyAgonyHero {
+    min-height: 70vh;
+  }
+
+  .buyAgonyHero__img img {
+    max-width: 100%;
+  }
+
+  .buyAgonyHero__btns {
+    gap: 20px;
+    width: max-content;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .buyAgonyHero {
+    padding-top: 200px;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .buyAgonyHero__img img {
+    max-width: 70%;
+  }
+
+  .buyAgonyHero__btns {
+    width: auto;
+    justify-content: center;
+  }
 }
