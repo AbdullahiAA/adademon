@@ -1,18 +1,17 @@
 .wave {
   transform: rotate(180deg);
-  animation: wave 22s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
-  width: 210%;
-  background-image: linear-gradient(170deg, #000000 0%, #1832ca 100%);
+  animation: wave 10s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  height: 41px;
+  width: 250%;
 }
 
 .wave svg {
-  background-color: white;
   background-image: linear-gradient(170deg, #000000 0%, #1832ca 100%);
-  height: 41px;
-  width: calc(100% + 1.3px);
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
 }
 
 @keyframes wave {

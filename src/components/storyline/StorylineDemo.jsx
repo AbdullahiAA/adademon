@@ -3,8 +3,11 @@ import "./StorylineDemo.css";
 import demo1 from "../../images/storylineDemo1.webp";
 import demo2 from "../../images/slider5.webp";
 import Zoom from "react-reveal/Zoom";
+import useDeviceWidth from "../hooks/useDeviceWidth";
 
 function StorylineDemo() {
+  const isDesktop = useDeviceWidth() > 550;
+
   const [offsetX, setOffsetX] = useState(0);
   const [offsetY, setOffsetY] = useState(0);
 
@@ -26,14 +29,18 @@ function StorylineDemo() {
           src={demo1}
           alt="Storyline Demo 1"
           style={{
-            transform: `perspective(1px) translate3d(${offsetX}px, ${offsetY}px, 0px) scale(1.4, 1.4)`,
+            transform: isDesktop
+              ? `perspective(1px) translate3d(${offsetX}px, ${offsetY}px, 0px) scale(1.4, 1.4)`
+              : "",
           }}
         />
         <img
           src={demo2}
           alt="Storyline Demo 2"
           style={{
-            transform: `perspective(1px) translate3d(${offsetX}px, ${offsetY}px, 0px) scale(1.4, 1.4)`,
+            transform: isDesktop
+              ? `perspective(1px) translate3d(${offsetX}px, ${offsetY}px, 0px) scale(1.4, 1.4)`
+              : "",
           }}
         />
       </Zoom>

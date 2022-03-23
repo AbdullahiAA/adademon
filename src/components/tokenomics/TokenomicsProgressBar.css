@@ -1,0 +1,44 @@
+.tokenomicsProgressBar__label {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.tokenomicsProgressBar__label h4:last-child {
+  font-family: "Moon House", sans-serif !important;
+}
+
+.MuiLinearProgress-root {
+  background-color: #eeeeee !important;
+  height: 12px !important;
+}
+
+.MuiLinearProgress-bar {
+  background-color: black !important;
+  width: 0 !important;
+  transition: width 1500ms linear !important;
+  position: relative;
+}
+
+.MuiLinearProgress-bar:after {
+  transition: width 1500ms linear !important;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -35px;
+  width: calc(100% + 70px);
+  height: 100%;
+  background-size: 35px 35px;
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  ) !important;
+}
