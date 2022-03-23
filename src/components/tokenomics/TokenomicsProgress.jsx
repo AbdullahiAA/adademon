@@ -59,6 +59,11 @@ function TokenomicsProgress() {
           value={item.value}
         />
       ))}
+
+      <h5>
+        The chart above does not include the reduction in the Maximum supply of
+        $AGONY due to the burn event.
+      </h5>
     </section>
   );
 }

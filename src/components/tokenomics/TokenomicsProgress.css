@@ -12,6 +12,11 @@
   gap: 30px;
 }
 
+.tokenomicsProgress h5 {
+  font-family: "Time Burner", sans-serif;
+  font-weight: 500;
+}
+
 @media screen and (max-width: 900px) {
   .tokenomicsProgress {
     min-height: 70vh;
