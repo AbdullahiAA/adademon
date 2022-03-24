@@ -49,9 +49,9 @@ nav ul li a:hover {
     gap: 30px;
   }
 
-  nav ul li a {
-    font-size: 16px;
-  }
+  /* nav ul li a { */
+  /* font-size: 16px; */
+  /* } */
 }
 
 @media screen and (max-width: 550px) {
