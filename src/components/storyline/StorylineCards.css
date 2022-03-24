@@ -21,4 +21,8 @@
   .storylineCards {
     padding-top: 100px;
   }
+
+  .storylineCards__container {
+    grid-template-columns: 1fr;
+  }
 }

@@ -16,11 +16,18 @@ function About() {
 
         <div className="about__content">
           <p>
-            ADA Demon is an immersive metaverse-based environment on the Cardano
-            Blockchain themed on the Greek underworld. Players on ADA Demon
-            start off as estranged spirits and must venture out of the fields of
-            Asphodel to battle monsters, beseech gods and escape this Greek
-            version of Hell.
+            ADA Demon is the first in-depth play-to-earn immersive
+            metaverse-based ecosystem on the Cardano Blockchain themed on the
+            Greek Underworld.
+          </p>
+          <p>
+            This Virtual-Underworld takes on a premise never before attempted in
+            the history of blockchain.
+          </p>
+          <p>
+            Players on ADA Demon start off as estranged spirits and must venture
+            out of the fields of Asphodel to battle monsters, beseech gods and
+            escape this Greek version of Hell.
           </p>
           <p>
             In an effort to integrate blockchain into popular gaming, ADA Demon

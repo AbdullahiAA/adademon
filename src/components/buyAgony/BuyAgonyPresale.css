@@ -69,7 +69,9 @@
 .buyAgonyPresale__calculatorForm .formGroup input {
   padding: 5px;
   outline: none;
+  border: 0px;
   color: initial;
+  background-color: white;
 }
 
 .agonyInput {

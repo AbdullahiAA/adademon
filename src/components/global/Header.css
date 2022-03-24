@@ -30,7 +30,8 @@ nav ul {
 
 nav ul li a {
   color: var(--text-color);
-  font-weight: 600;
+  font-weight: bolder;
+  text-transform: uppercase;
   transition: all 0.4s ease-in;
 }
 
