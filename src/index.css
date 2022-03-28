@@ -40,6 +40,12 @@ body {
   overflow-x: hidden;
 }
 
+body::before {
+  content: "";
+  background-image: url(./images/roadmap.webp);
+  display: none;
+}
+
 h1,
 h2,
 h3,

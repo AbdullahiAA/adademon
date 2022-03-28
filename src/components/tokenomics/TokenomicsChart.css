@@ -1,0 +1,23 @@
+.tokenomicsChart {
+  min-height: 110vh;
+
+  padding: 150px var(--side-space) 80px;
+
+  background-image: url(../../images/gameFeatures.png);
+  background-position: center top;
+  background-size: 100% 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tokenomicsChart img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .tokenomicsChart {
+    min-height: 70vh;
+  }
+}
